@@ -44,7 +44,7 @@ const AboutSection = () => {
             MONA is the premier platform designed to facilitate the Certification of
             Recognition (COR) for foreign Certificate of Competency (COC) holders seeking
             to work on vessels. Our latest version offers a seamless experience with
-            upgraded features and faster processing.
+            upgraded features and faster processing through our EduCOR and EduRating systems.
           </p>
         </div>
 
@@ -76,7 +76,27 @@ const AboutSection = () => {
               recognized by the Marine Department. Successful completion will be reflected 
               in the official system.
             </p>
-            <ul className="space-y-4">
+            
+            {/* Added new section for EduCOR and EduRating */}
+            <div className="mt-6 space-y-4">
+              <div className="bg-maritime-50 p-4 rounded-lg border border-maritime-100">
+                <h3 className="text-xl font-semibold text-maritime-800 mb-2">EduCOR System</h3>
+                <p className="text-gray-700">
+                  Our proprietary EduCOR system streamlines the certification process, ensuring accurate 
+                  validation of foreign certifications and compliance with international maritime standards.
+                </p>
+              </div>
+              
+              <div className="bg-maritime-50 p-4 rounded-lg border border-maritime-100">
+                <h3 className="text-xl font-semibold text-maritime-800 mb-2">EduRating Platform</h3>
+                <p className="text-gray-700">
+                  The EduRating platform provides transparent assessment and rating of certificates, 
+                  giving employers confidence in the qualifications of maritime professionals.
+                </p>
+              </div>
+            </div>
+            
+            <ul className="space-y-4 mt-6">
               <li className="flex items-start gap-3">
                 <div className="mt-1 rounded-full bg-maritime-100 p-1">
                   <svg className="h-4 w-4 text-maritime-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -119,6 +139,18 @@ const AboutSection = () => {
                 their certification through our platform, advancing their careers in the
                 maritime industry.
               </p>
+              
+              {/* Added EduCOR and EduRating highlights */}
+              <div className="mt-6 grid grid-cols-2 gap-4">
+                <div className="text-center p-3 bg-white rounded-lg shadow-sm">
+                  <h4 className="font-semibold text-maritime-800">EduCOR</h4>
+                  <p className="text-sm text-gray-600">Streamlined certification</p>
+                </div>
+                <div className="text-center p-3 bg-white rounded-lg shadow-sm">
+                  <h4 className="font-semibold text-maritime-800">EduRating</h4>
+                  <p className="text-sm text-gray-600">Trusted assessment</p>
+                </div>
+              </div>
             </div>
 
             {/* Decorative elements */}
