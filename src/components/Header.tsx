@@ -34,18 +34,19 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
-          <a
+          {/* <a
             href="#home"
             className="text-maritime-900 hover:text-maritime-700 font-medium transition-colors"
           >
             Home
-          </a>
+          </a> */}
           <a
             href="#about"
             className="text-maritime-900 hover:text-maritime-700 font-medium transition-colors"
           >
             About Us
           </a>
+          {/*
           <a
             href="#courses"
             className="text-maritime-900 hover:text-maritime-700 font-medium transition-colors"
@@ -57,7 +58,7 @@ const Header = () => {
             className="text-maritime-900 hover:text-maritime-700 font-medium transition-colors"
           >
             Certification
-          </a>
+          </a> */}
           <a
             href="#contact"
             className="text-maritime-900 hover:text-maritime-700 font-medium transition-colors"
@@ -66,14 +67,14 @@ const Header = () => {
           </a>
         </nav>
 
-        <div className="hidden md:flex items-center gap-4">
+        {/* <div className="hidden md:flex items-center gap-4">
           <Button variant="outline" className="border-maritime-800 text-maritime-800">
             Login
           </Button>
           <Button className="bg-maritime-800 hover:bg-maritime-700">
             Get Certificate
           </Button>
-        </div>
+        </div> */}
 
         {/* Mobile Menu Toggle */}
         <button
